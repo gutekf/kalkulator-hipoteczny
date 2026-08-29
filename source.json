@@ -1,0 +1,35 @@
+{
+  "name": "Kalkulator Hipoteczny — źródło rodzinne",
+  "subtitle": "Prywatna aplikacja do rat i zdolności kredytowej",
+  "iconURL": "https://raw.githubusercontent.com/gutekf/kalkulator-hipoteczny/main/icon.png",
+  "website": "https://github.com/gutekf/kalkulator-hipoteczny",
+  "tintColor": "#0E6B5C",
+  "apps": [
+    {
+      "name": "Kalkulator Hipoteczny",
+      "bundleIdentifier": "pl.filip.kalkulatorhipoteczny",
+      "developerName": "Filip",
+      "subtitle": "Raty, zdolność i werdykty z ogłoszeń Otodom",
+      "localizedDescription": "Rodzinny kalkulator kredytów hipotecznych: wklejasz link z Otodom, widzisz ratę, zdolność i werdykt dla swojego profilu. Oferty banków odświeżane codziennie.",
+      "iconURL": "https://raw.githubusercontent.com/gutekf/kalkulator-hipoteczny/main/icon.png",
+      "tintColor": "#0E6B5C",
+      "category": "utilities",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "buildVersion": "2",
+          "date": "2026-08-29",
+          "size": 814567,
+          "downloadURL": "https://raw.githubusercontent.com/gutekf/kalkulator-hipoteczny/main/KalkulatorHipoteczny.ipa",
+          "minOSVersion": "17.0",
+          "localizedDescription": "Ikona aplikacji + telefony domyślnie pobierają codzienne oferty banków z internetu."
+        }
+      ]
+    }
+  ],
+  "news": []
+}
