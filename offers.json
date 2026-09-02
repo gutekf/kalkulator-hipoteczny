@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T12:00:00Z",
+  "generatedAt": "2026-09-02T12:00:00Z",
   "note": "Dane z automatycznego researchu — orientacyjne, nie są ofertą; weryfikuj w banku.",
   "offers": [
     {
@@ -11,62 +11,66 @@
       "minJDGMonths": 12,
       "referenceIndex": "WIBOR 6M",
       "referenceValuePct": 3.85,
-      "ryczaltConverter": "Wewnętrzny algorytm banku — procent przychodu uznawany za dochód zależy od stawki ryczałtu oraz poziomu przychodu; bank nie publikuje tabeli przelicznikowej.",
+      "ryczaltConverter": "Brak jednego stałego procentu — bank stosuje wewnętrzny algorytm uzależniony od stawki ryczałtu (8,5%/12%/14%/15% itd.) i wysokości przychodu; im niższa stawka ryczałtu, tym wyższy przyjmowany dochód.",
       "sources": [
-        "https://www.pkobp.pl/klient-indywidualny/kredyty-pozyczki/kredyt-hipoteczny — dostęp 2026-08-29 (oferta 16.04–02.09.2026, min. wkład 10%, prowizja od 0% przy ubezpieczeniu na życie; wartości RRSO na stronie renderowane dynamicznie, nieodczytane)",
-        "https://moneteo.com/analizy/kredyt-wlasny-kat-hipoteczny-w-pko-bp — dostęp 2026-08-29 (przykład reprezentatywny z 16.04.2026: kwota 400 000 zł, 25 lat, LTV 62,14%, stała stopa 5 lat 6,31% = baza 4,64% + marża 1,67% z obniżką 0,4 p.p.; następnie zmienna WIBOR 6M + marża 2,07%)",
-        "UWAGA: marginPct 2.07 pochodzi z przykładu reprezentatywnego (LTV 62%), nie z dedykowanej siatki dla LTV 80%; PKO BP nie publikuje tabeli marż wg wkładu własnego. Wartość referenceValuePct to bieżący WIBOR 6M, nie wartość z przykładu (4,64%)."
+        "https://moneteo.com/analizy/kredyt-wlasny-kat-hipoteczny-w-pko-bp — dostęp 2026-09-02; przykład reprezentatywny Własny Kąt hipoteczny: kwota 400 000 zł, 25 lat, LTV 62,14%, oprocentowanie stałe 6,31% (baza 5-letnia 4,64% + marża 1,67%), po 5 latach zmienne 6,71% = WIBOR 6M + marża 2,07%, RRSO 7,31%, kalkulacja 16.04.2026, oferta ważna do 02.09.2026",
+        "https://www.agencja.pkobp.pl/FLA2/oferta-produktowa/kredyty-hipoteczne/wlasny-kat-hipoteczny — dostęp 2026-09-02; prowizja 0%, minimalny wkład własny 10%, oprocentowanie stałe niższe o 0,4 p.p. przez 5 lat",
+        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-09-02 (publikacja 19.04.2026); przelicznik ryczałtu = algorytm wg stawki ryczałtu, minimalny staż JDG 12 mies.",
+        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-09-02 (aktualizacja 26.02.2026); potwierdzenie 12 mies. stażu",
+        "UWAGA: marża standardowa dla wkładu 20% jest ustalana indywidualnie — wartość 2.07 pochodzi z przykładu reprezentatywnego, nie z tabeli marż"
       ]
     },
     {
       "bank": "Pekao",
       "commissionPct": 0.0,
-      "fixedRate5yPct": 6.29,
+      "fixedRate5yPct": 6.07,
       "marginPct": 1.79,
       "minDownPaymentPct": 10,
       "minJDGMonths": 12,
       "referenceIndex": "WIBOR 1M",
       "referenceValuePct": 3.81,
-      "ryczaltConverter": "Do ok. 80% przychodu uznawane za dochód, zależnie od branży/PKD i stawki ryczałtu.",
+      "ryczaltConverter": "Wewnętrzny kalkulator dochodu z przychodu — przyjmowane ok. 80% przychodu (przelicznik zależny od PKD i stawki ryczałtu).",
       "sources": [
-        "https://www.pekao.com.pl/klient-indywidualny/wlasne-mieszkanie-lub-dom/kredyt-hipoteczny.html — dostęp 2026-08-29 (przykład zmienny z 01.07.2026: marża 1,79%, WIBOR 1M, RRSO 6,01%; przykład stały z 06.08.2026: stała stopa 5 lat 6,29%, RRSO 6,77%; 0 zł za promesę)",
-        "https://bankiopinie.pl/bank-pekao-kredyt-hipoteczny-opinie/ — dostęp 2026-08-29 (marża od 1,79% dla klienta standardowego z wkładem 20% przy spełnieniu cross-sellu: Konto Przekorzystne z wpływem min. 3 000 zł/mies. przez cały okres kredytu)",
-        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-08-29 (aktualizacja 26.02.2026; przelicznik do 80% przychodu, staż 12–24 mies. zależnie od kwoty)",
-        "UWAGA: prowizja 0,0 dotyczy promesy/oferty promocyjnej; standardowa taryfa może przewidywać prowizję — nie potwierdzono aktualnej tabeli opłat."
+        "https://www.pekao.com.pl/klient-indywidualny/wlasne-mieszkanie-lub-dom/kredyt-hipoteczny.html — dostęp 2026-09-02; finansowanie do 90% wartości nieruchomości (min. wkład 10%), RRSO 6,05% (zmienne) i 6,77% (okresowo stałe), obniżki marży za Konto Przekorzystne z wpływem min. 3 000 zł, ubezpieczenie na życie i kartę kredytową (-0,1 p.p.)",
+        "https://www.pekao.com.pl/wskazniki-referencyjne.html — dostęp 2026-09-02; oprocentowanie zmienne = WIBOR 1M + marża",
+        "https://bankihipoteczne.pl/kredyty-hipoteczne/pekao-sa-kredyt-hipoteczny/ — dostęp 2026-09-02; marża od 1,79% dla klienta z wkładem 20% przy warunku cross-sell; przykład reprezentatywny 01.07.2026: oprocentowanie okresowo stałe 6,07% przez 5 lat, po okresie stałym 5,61% = wskaźnik + marża 1,80 p.p., RRSO 6,01–6,12%",
+        "https://moneteo.com/rankingi/kredyty-hipoteczne — dostęp 2026-09-02 (aktualizacja 24.08.2026); Pekao: oprocentowanie 5,59%, prowizja 0%, RRSO 6,03%, wkład własny 10%",
+        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-09-02; ok. 80% przychodu, staż 12 mies.",
+        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-09-02; do 80% przychodu, staż 12–24 mies. zależnie od profilu"
       ]
     },
     {
       "bank": "mBank",
       "commissionPct": 0.0,
-      "fixedRate5yPct": 6.57,
-      "marginPct": 2.3,
+      "fixedRate5yPct": 6.32,
+      "marginPct": 1.85,
       "minDownPaymentPct": 10,
-      "minJDGMonths": 12,
+      "minJDGMonths": 24,
       "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.83,
-      "ryczaltConverter": "Dochód szacowany jako ok. 5-krotność podatku ryczałtowego zapłaconego w ostatnich 12 miesiącach; alternatywnie ocena indywidualna.",
+      "referenceValuePct": 3.81,
+      "ryczaltConverter": "Dochód szacowany jako 5-krotność zapłaconego podatku ryczałtowego z ostatnich 12 miesięcy (ocena indywidualna dla wybranych branż).",
       "sources": [
-        "https://www.mbank.pl/indywidualny/kredyty/kredyty-hipoteczne/ — dostęp 2026-08-29 (przykład reprezentatywny: marża 2,30% + WIBOR 3M 3,86%, stała stopa 5 lat 6,57%, prowizja 0,00%, min. wkład 10% wartości rynkowej, RRSO 6,17%; brak daty sporządzenia przykładu na stronie)",
-        "https://www.totalmoney.pl/artykuly/srednia-marza-kredytu-hipotecznego — dostęp 2026-08-29 (dla wkładu 20% marża mBanku ok. 1,85–1,95% zależnie od statusu klienta; data publikacji artykułu niespójna — nie użyto jako wartości głównej)",
-        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-08-29 (przelicznik 5× podatek, staż 12 mies.)",
-        "UWAGA: marginPct 2.30 pochodzi z przykładu reprezentatywnego dla LTV 90%; przy wkładzie 20% realna marża jest niższa (ok. 1,85–1,95%, a w segmencie Intensive nawet ok. 1,5% przy pełnym cross-sellu) — brak oficjalnej tabeli mBanku potwierdzającej te wartości. Źródła podają rozbieżny staż JDG: 12 mies. (hipoteczny.pl) vs 24 mies. z wyjątkami (union-advisors.pl)."
+        "https://www.mbank.pl/indywidualny/kredyty/kredyty-hipoteczne/chce-kredyt-hipoteczny/ — dostęp 2026-09-02; promocja obowiązująca 25.06.2026–30.09.2026: marża promocyjna 1,85%–2,40% zależnie od segmentu i LTV, oprocentowanie stałe 5-letnie 6,32%–6,67%, WIBOR 3M 3,86%, prowizja 0%, minimalny wkład własny 10%; przykłady reprezentatywne z 11.08.2026: RRSO 6,17% (zmienne) i 6,82% (stałe 5 lat)",
+        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-09-02 (aktualizacja 26.02.2026); przelicznik: 5× zapłacony podatek z 12 m-cy",
+        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-09-02; staż 24 mies., skrócenie do 12 (a nawet 3) mies. dla IT, prawników i zawodów medycznych",
+        "UWAGA: podane marża i stopa stała to dolne krańce widełek promocyjnych; faktyczna wartość zależy od segmentu klienta i LTV"
       ]
     },
     {
       "bank": "ING",
       "commissionPct": 0.0,
       "fixedRate5yPct": 5.82,
-      "marginPct": 1.8,
+      "marginPct": 1.85,
       "minDownPaymentPct": 20,
       "minJDGMonths": 24,
       "referenceIndex": "WIBOR 1M",
       "referenceValuePct": 3.81,
-      "ryczaltConverter": "Brak sztywnego procentu — przelicznik ustalany indywidualnie w oparciu o PKD, poziom przychodu i strukturę kosztów; bank nie publikuje tabeli.",
+      "ryczaltConverter": "Analiza indywidualna — klient sam deklaruje koszty prowadzenia działalności, bank weryfikuje je względem PKD i wysokości przychodu; brak sztywnego procentu.",
       "sources": [
-        "https://www.ing.pl/indywidualni/kredyty-i-pozyczki/kredyt-hipoteczny — dostęp 2026-08-29 (przykład 'Stawiam na swoje – Łatwy start' z 24.08.2026: marża 1,8% + WIBOR 1M 3,80%, prowizja 0%, min. wkład własny 20%, RRSO 6,13%; oprocentowanie stałe 5 lat 5,82%)",
-        "https://www.ing.pl/indywidualni/tabele-i-regulaminy/oprocentowanie/kredyty-karty-kredytowe-pozyczki — dostęp 2026-08-29 (tabela oprocentowania ING)",
-        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-08-29 (publikacja 19.04.2026; ING: analiza indywidualna, staż 24 mies.)",
-        "UWAGA: w ofercie 'Standard' ING stosuje wyższe marże (przykład z 08.06.2026: marża 2,5% + prowizja) — 1,80% dotyczy oferty promocyjnej z zerową prowizją i wkładem min. 20%."
+        "https://www.ing.pl/indywidualni/kredyty-i-pozyczki/kredyt-hipoteczny — dostęp 2026-09-02; oferta „Stawiam na swoje / Łatwy Start”: prowizja 0%, RRSO 6,10%, minimalny wkład własny 20%, kwota min. 100 000 zł, okres do 35 lat, oprocentowanie zmienne od 5,57% (WIBOR 1M) lub stałe 5 lat 5,82%",
+        "https://www.ing.pl/indywidualni/kredyty-i-pozyczki/kredyt-hipoteczny/oferty-i-oprocentowanie — dostęp 2026-09-02; przykłady reprezentatywne z 03.08.2026: RRSO 6,30%, oprocentowanie zmienne 5,60% = WIBOR 1M 3,80% + marża 1,80%; po okresie stałym oprocentowanie zmienne = WIBOR 1M + marża 1,85%",
+        "https://moneteo.com/rankingi/kredyty-hipoteczne — dostęp 2026-09-02 (aktualizacja 24.08.2026); ING: oprocentowanie okresowo stałe 5,82%, prowizja 0%, RRSO 6,29%, wkład własny 20%",
+        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-09-02; analiza indywidualna, staż 24 mies."
       ]
     },
     {
@@ -75,15 +79,16 @@
       "fixedRate5yPct": 6.15,
       "marginPct": 1.95,
       "minDownPaymentPct": 10,
-      "minJDGMonths": 24,
+      "minJDGMonths": 12,
       "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.83,
-      "ryczaltConverter": "Najbardziej przejrzysta tabela na rynku — procent przychodu uznawany za dochód zależy wprost od stawki ryczałtu, w przedziale ok. 15–60% (im wyższa stawka ryczałtu, tym wyższy przelicznik).",
+      "referenceValuePct": 3.81,
+      "ryczaltConverter": "15–60% przychodu w zależności od stawki ryczałtu (im niższa stawka ryczałtu, tym niższy przelicznik przychodu); alternatywnie 6 faktur + PIT, przy czym dochód przyjmowany jest zwykle o ok. 30% niżej niż przy zasadach ogólnych.",
       "sources": [
-        "https://moneteo.com/analizy/kredyt-hipoteczny-erste-bank-polska — dostęp 2026-08-29 (aktualizacja 27.04.2026; stała stopa 5 lat 6,15%, po okresie stałym zmienna 5,80% = WIBOR 3M 3,85% z 21.05.2026 + marża 1,95%, prowizja 0% przy ubezpieczeniu 'Spokojna Hipoteka', min. wkład 10%, RRSO 6,82%)",
-        "https://www.erste.pl/regulation_file_server/time20260310093344/download?sr=1&id=165625&lang=pl_PL — dostęp 2026-08-29 (Oprocentowanie kredytów hipotecznych dla klientów indywidualnych — dokument taryfowy Erste)",
-        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-08-29 (przelicznik 15–60% wg stawki ryczałtu; staż 12 mies. dla kredytów do 300 000 zł, 24 mies. powyżej 300 000 zł — dla kwoty 400 000 zł obowiązuje 24 mies.)",
-        "UWAGA: Santander Bank Polska zmienił markę na Erste Bank Polska z dniem 24.04.2026."
+        "https://www.erste.pl/regulation_file_server/time20260310093344/download?sr=1&id=165625&lang=pl_PL — „Oprocentowanie kredytów hipotecznych dla klientów indywidualnych”, dostęp 2026-09-02",
+        "https://www.erste.pl/klient-indywidualny/kredyty/kredyt-mieszkaniowy — dostęp 2026-09-02; przykład reprezentatywny: 291 rat, kwota 484 781 zł, oprocentowanie stałe 5 lat 6,15%, po 5 latach zmienne 5,80% = WIBOR 3M 3,85% (z 21.05.2026) + marża 1,95%, RRSO 6,82%; finansowanie do 90% wartości (min. wkład 10%), przy wkładzie <20% wymagane ubezpieczenie niskiego wkładu",
+        "https://rankomat.pl/finanse/banki/erste/kredyty-hipoteczne-w-erste/ — dostęp 2026-09-02; brak prowizji za udzielenie przy ubezpieczeniu „Spokojna Hipoteka”, brak prowizji za wcześniejszą spłatę",
+        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-09-02; przelicznik 15–60% przychodu wg stawki ryczałtu, staż 12 mies. (24 mies. przy kredytach >300 tys. zł)",
+        "UWAGA: Santander Bank Polska działa obecnie pod marką Erste Bank Polska — dane dotyczą tego samego podmiotu"
       ]
     },
     {
@@ -91,16 +96,17 @@
       "commissionPct": 0.0,
       "fixedRate5yPct": 5.65,
       "marginPct": 2.0,
-      "minDownPaymentPct": 10,
+      "minDownPaymentPct": 20,
       "minJDGMonths": 12,
       "referenceIndex": "WIBOR 6M",
       "referenceValuePct": 3.85,
-      "ryczaltConverter": "Ok. 25% przychodu brutto wg jednego źródła; wg innego przelicznik zależny od PKD (branża IT powyżej 50% przychodu, usługi finansowe poniżej 30%). Bank nie publikuje oficjalnej tabeli.",
+      "ryczaltConverter": "Ok. 25% przychodu brutto jako dochód, z modyfikacją wg PKD (branża IT nawet powyżej 50% przychodu, branże finansowe poniżej 30%).",
       "sources": [
-        "https://www.bankmillennium.pl/klienci-indywidualni/kredyty-hipoteczne/kredyt-hipoteczny — dostęp 2026-08-29 (przykład reprezentatywny sporządzony 05.03.2026: kwota 549 738 zł, 27 lat, stała stopa 5,65% przez pierwsze 60 mies., następnie zmienna 5,71% = marża 2,00% + WIBOR 6M 3,71% z 28.02.2026, prowizja 0 zł, RRSO 6,49%; warunki wymagają Konta 360°, wpływów i ubezpieczenia na życie przez 36 mies.)",
-        "https://moneteo.com/rankingi/kredyty-hipoteczne — dostęp 2026-08-29 (ranking z 24.08.2026: Millennium oprocentowanie stałe 5 lat 5,65%, prowizja 0%, RRSO 6,49%)",
-        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-08-29 (aktualizacja 26.02.2026; przelicznik zależny od PKD, staż 12 mies.)",
-        "UWAGA: przykład reprezentatywny Millennium jest datowany na 05.03.2026 (WIBOR 6M 3,71%) — nie znaleziono nowszego; referenceValuePct podano jako bieżący WIBOR 6M. Jedno źródło (totalmoney.pl) sugeruje, że Millennium zawiesił sprzedaż kredytów ze zmiennym oprocentowaniem — nie potwierdzono w źródle oficjalnym."
+        "https://www.bankmillennium.pl/klienci-indywidualni/kredyty-hipoteczne/kredyt-hipoteczny — dostęp 2026-09-02; przykład reprezentatywny: kwota 549 738 zł, 27 lat, 325 rat, oprocentowanie w pierwszym 60-miesięcznym okresie stałym 5,65%, następnie zmienne 5,71% = marża 2,00% + WIBOR 6M 3,71% (stan na 28.02.2026), prowizja 0 zł, RRSO 6,49%; marża 2,00% wymaga konta Millennium 360° z wpływami, transakcji kartą min. 500 zł/mies. i ubezpieczenia na życie",
+        "https://moneteo.com/rankingi/kredyty-hipoteczne — dostęp 2026-09-02 (aktualizacja 24.08.2026); Millennium: oprocentowanie okresowo stałe 5 lat 5,65%, prowizja 0%, RRSO 6,49%, wkład własny 20%",
+        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-09-02; 25% przychodu brutto, staż 12 mies. (24 mies. dla branż ryzykownych)",
+        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-09-02; przelicznik zależny od PKD, staż 12 mies.",
+        "UWAGA: bank finansuje do 90% LTV, ale ranking i oferta promocyjna z 5,65% wskazują wymóg 20% wkładu — dla wkładu 10% parametry są gorsze"
       ]
     },
     {
@@ -111,14 +117,13 @@
       "minDownPaymentPct": 10,
       "minJDGMonths": 24,
       "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.83,
-      "ryczaltConverter": "Do ok. 80–90% przychodu uznawane za dochód — jeden z najkorzystniejszych przeliczników na rynku dla ryczałtowców.",
+      "referenceValuePct": 3.81,
+      "ryczaltConverter": "Do 90% przychodu (bank wylicza średni miesięczny dochód netto z roku bieżącego i ubiegłego; wysokość przelicznika zależy od branży/PKD).",
       "sources": [
-        "https://bankowynet.pl/kredyty/hipoteczne/alior/ — dostęp 2026-08-29 (weryfikacja 06.08.2026; marża 2,05% standard / 1,69% oferta specjalna + WIBOR 3M 3,82% z fixingu 04.08.2026; stała stopa 5 lat 6,58% standard / 6,52% oferta 'Własne M tam gdzie Ty IV'; prowizja 0 zł w przykładach reprezentatywnych, taryfa dopuszcza do 5%; max LTV 90%; RRSO 7,15% / 6,52%)",
-        "https://www.aliorbank.pl/klienci-indywidualni/kredyty-hipoteczne.html — dostęp 2026-08-29 (prowizja 0%, min. wkład własny 10%, RRSO 6,52% i 7,15%)",
-        "https://moneteo.com/rankingi/kredyty-hipoteczne — dostęp 2026-08-29 (ranking z 24.08.2026: Alior stała stopa 6,58%, RRSO 7,15%)",
-        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-08-29 (do 90% przychodu, staż 24 mies.)",
-        "UWAGA: marża 1,69% i stała stopa 6,52% dostępne wyłącznie w ofercie specjalnej przy pełnym cross-sellu (konto z wpływem, aktywność w aplikacji, ubezpieczenie na życie)."
+        "https://www.aliorbank.pl/klienci-indywidualni/kredyty-hipoteczne/kredyt-z-okresowo-stala-stopa-oprocentowania.html — dostęp 2026-09-02; oprocentowanie okresowo stałe 5 lat 6,58%, po okresie stałym zmienne = WIBOR 3M 3,86% + marża 2,05%, prowizja 0%, przykład reprezentatywny: 337 000 zł, 316 mies., RRSO 7,15%, kalkulacja 05.06.2026; obniżka marży o 0,5 p.p. przy spełnieniu 4 warunków (m.in. wpływ min. 3 000 zł, aplikacja mobilna)",
+        "https://moneteo.com/rankingi/kredyty-hipoteczne — dostęp 2026-09-02 (aktualizacja 24.08.2026); Alior (Megahipoteka): 6,58%, prowizja 0%, RRSO 7,15%, wkład własny 10%",
+        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-09-02; staż 24 mies. (12 mies. dla IT, ochrony zdrowia, architektury)",
+        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-09-02; przelicznik do 90% przychodu, staż 24 mies."
       ]
     },
     {
@@ -129,56 +134,56 @@
       "minDownPaymentPct": 20,
       "minJDGMonths": 24,
       "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.83,
-      "ryczaltConverter": "Od 16.02.2026 współczynnik korygujący przychodu zależny od zawodu/profesji kredytobiorcy (wcześniej stosowano ryczałtowo ok. 35% przychodu); bank nie publikuje tabeli.",
+      "referenceValuePct": 3.81,
+      "ryczaltConverter": "Współczynnik uzależniony od wykonywanego zawodu/PKD (zasady zmienione od 16.02.2026); w praktyce ok. 35% przychodu jako punkt wyjścia.",
       "sources": [
-        "https://www.bnpparibas.pl/klienci-indywidualni/kredyty/kredyt-hipoteczny-z-niska-marza — dostęp 2026-08-29 (przykład reprezentatywny sporządzony 05.08.2026: kwota 475 137 zł, 263 raty, oprocentowanie okresowo stałe 5 lat 5,95%, następnie zmienne 5,47% = WIBOR 3M 3,82% + marża 1,65%, prowizja 0,00%, min. wkład własny 20%, RRSO 6,93%; wymagane ubezpieczenie na życie i nieruchomości oraz wpływ min. 2 500 zł/mies. na konto BNP)",
-        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-08-29 (aktualizacja 26.02.2026; 35% przychodu, staż 24 mies.)",
-        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-08-29 (zmiana metodyki od 16.02.2026 — współczynnik zależny od profesji; staż nieokreślony w źródle)"
+        "https://www.bnpparibas.pl/_fileserver/item/1528468 — Karta informacyjna kredytu hipotecznego, dostęp 2026-09-02; przykład reprezentatywny: 263 mies., wartość nieruchomości 841 023 zł, kwota kredytu 475 137 zł, oprocentowanie okresowo stałe 5 lat 5,95%, po tym okresie zmienne 5,47% = WIBOR 3M 3,82% (stan na 05.08.2026) + marża 1,65%, prowizja 0,00 zł, RRSO 6,93%",
+        "https://www.bnpparibas.pl/klienci-indywidualni/kredyty/kredyt-hipoteczny-z-niska-marza — dostęp 2026-09-02; wymagany wkład własny min. 20%, oprocentowanie stałe od 5,90% na 5 lub 10 lat",
+        "https://www.bankier.pl/smart/kredyty-hipoteczne — dostęp 2026-09-02; BNP Paribas: marża 1,65%, prowizja 0%, RRSO 5,83% (symulacja: nieruchomość 500 000 zł, wkład 20%, kredyt 400 000 zł, 30 lat)",
+        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-09-02; współczynnik zależny od profesji od 16.02.2026",
+        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-09-02; ok. 35% przychodu, staż 24 mies."
       ]
     },
     {
       "bank": "Credit Agricole",
       "commissionPct": 0.0,
       "fixedRate5yPct": null,
-      "marginPct": 1.86,
+      "marginPct": 1.85,
       "minDownPaymentPct": 10,
       "minJDGMonths": 12,
       "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.83,
-      "ryczaltConverter": null,
+      "referenceValuePct": 3.81,
+      "ryczaltConverter": "Analiza przychodów i dochodu z pełnych 12 miesięcy działalności; brak jednego publikowanego procentu przelicznika przychodu.",
       "sources": [
-        "https://www.credit-agricole.pl/klienci-indywidualni/kredyty-hipoteczne — dostęp 2026-08-29 (przykład 'Prosto do domu' z 01.08.2026: 369 000 zł, 263 raty, oprocentowanie zmienne 5,65% = WIBOR 3M 3,79% + marża 1,86%, LTV 55%, prowizja 0%, RRSO 6,43%; przykład ze stałą stopą z 01.08.2026: 6,52% = stopa bazowa 4,55% + marża 1,97%, LTV 56%)",
-        "https://www.informacjakredytowa.com/katalog/credit-agricole-kredyt-hipoteczny/ — dostęp 2026-08-29 (minimalny wkład własny 10%)",
-        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-08-29 (publikacja 19.04.2026; CA: ocena indywidualna dochodu z ryczałtu — brak publikowanego przelicznika; staż 12 mies., wyjątkowo 6 mies.)",
-        "BRAK DANYCH: fixedRate5yPct = null — udokumentowany przykład stałej stopy Credit Agricole (6,52%) dotyczy okresu 7-letniego, a nie 5-letniego; nie znaleziono potwierdzonej stawki dla okresu stałego 5 lat.",
-        "BRAK DANYCH: ryczaltConverter = null — bank nie publikuje przelicznika przychodu na dochód, źródła brokerskie podają wyłącznie 'ocena indywidualna'.",
-        "UWAGA: marża 1,86% pochodzi z przykładu przy LTV 55%; brak potwierdzonej marży dla LTV 80%."
+        "https://www.credit-agricole.pl/klienci-indywidualni/kredyty-hipoteczne — dostęp 2026-09-02; oprocentowanie zmienne = WIBOR 3M + marża albo oprocentowanie stałe w okresach 7-letnich; RRSO 6,43% (oferta standardowa), 6,29% (Prime), wymagane ubezpieczenie na życie i nieruchomości",
+        "https://www.credit-agricole.pl/klienci-indywidualni/kredyty-hipoteczne/kredyt-na-mieszkanie — dostęp 2026-09-02; oferta „Prosto do domu”: minimalny wkład własny 10%, okres do 35 lat, marża 1,85% (1,65% dla kredytów powyżej 500 000 zł), prowizja za udzielenie 0 zł i 0 zł za wcześniejszą spłatę; przykład reprezentatywny z 01.07.2026: RRSO 6,18% (zmienne) i 6,49% (stałe)",
+        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-09-02; okres analizy 12 mies., staż 12 mies. (6 mies. przy kontynuacji współpracy B2B)",
+        "BRAK DANYCH: fixedRate5yPct = null — Credit Agricole oferuje okresowo stałe oprocentowanie w cyklu 7-letnim, a nie 5-letnim, więc parametr „stałe 5 lat” nie występuje w ofercie"
       ]
     },
     {
       "bank": "VeloBank",
       "commissionPct": 0.0,
       "fixedRate5yPct": 5.85,
-      "marginPct": null,
+      "marginPct": 1.85,
       "minDownPaymentPct": 10,
       "minJDGMonths": 24,
       "referenceIndex": "WIBOR 1M",
       "referenceValuePct": 3.81,
-      "ryczaltConverter": "10–80% przychodu uznawane za dochód, zależnie od branży/PKD; przy B2B z jednym kontrahentem ok. 70% przychodu.",
+      "ryczaltConverter": "10–80% przychodu w zależności od PKD/branży; dla B2B jako jedynego źródła dochodu przyjmowane 70% przychodu.",
       "sources": [
-        "https://www.velobank.pl/klienci-indywidualni/kredyty/kredyt-hipoteczny.html — dostęp 2026-08-29 (przykład reprezentatywny VeloDom sporządzony 04.12.2025: 538 000 zł, 300 rat, LTV 74,72%, stała stopa 5 lat 5,85%, następnie zmienna 6,15% przy WIBOR 1M 4,30% z 28.11.2025, prowizja 0 zł przy pakiecie konta i ubezpieczeniu VeloBezpieczny, RRSO 6,57%; marża nie jest podana wprost w przykładzie)",
-        "https://moneteo.com/analizy/kredyt-hipoteczny-w-velobanku — dostęp 2026-08-29 (aktualizacja 12.03.2026; marża 2,25%, prowizja 0%, min. wkład własny 10%)",
-        "https://moneteo.com/rankingi/kredyty-hipoteczne — dostęp 2026-08-29 (ranking z 24.08.2026: VeloBank stała stopa 5 lat 5,85%, prowizja 0%, RRSO 6,57%)",
-        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-08-29 (przelicznik 10–80% przychodu, B2B jeden kontrahent 70%, staż 24 mies.)",
-        "BRAK DANYCH: marginPct = null — źródła podają sprzeczne wartości (2,25% wg moneteo.com z 12.03.2026 vs 1,85% wg zestawień totalmoney.pl/opinieodeweloperach.pl), a oficjalny przykład reprezentatywny VeloBanku nie ujawnia marży. Przykład na stronie banku jest nieaktualny (WIBOR 1M z 28.11.2025)."
+        "https://www.velobank.pl/klienci-indywidualni/kredyty/kredyt-hipoteczny.html — dostęp 2026-09-02; VeloDom: oprocentowanie stałe 5 lat 5,85%, następnie zmienne 6,15%, RRSO 6,57% (stałe) / 6,71% (zmienne), 0% prowizji z kontem z pakietem i ubezpieczeniem VeloBezpieczny, finansowanie do 90% wartości nieruchomości; przykład reprezentatywny: 538 000 zł, 300 mies., LTV 74,72% — UWAGA: opublikowany przykład ma datę kalkulacji 04.12.2025 i wskaźnik WIBOR 1M 4,30%, więc jest nieaktualny względem bieżących stawek",
+        "https://moneteo.com/rankingi/kredyty-hipoteczne — dostęp 2026-09-02 (aktualizacja 24.08.2026); VeloBank: 5,85%, prowizja 0%, RRSO 6,57%, wkład własny 10%",
+        "https://www.czerwona-skarbonka.pl/kredyty/kredyty-hipoteczne/velobank-kredyt-hipoteczny/ — dostęp 2026-09-02; marża 1,85% w obu wariantach; marża 1,80% przy koncie z wpływami min. 3 000 zł/mies. przez cały okres kredytowania",
+        "https://union-advisors.pl/kredyt-hipoteczny-ryczalt-2026-0426/ — dostęp 2026-09-02; staż 24 mies.",
+        "https://hipoteczny.pl/blog/kredyt-hipoteczny-na-ryczalcie/ — dostęp 2026-09-02; przelicznik 10–80% przychodu, B2B jedno źródło 70%"
       ]
     }
   ],
   "referenceRates": {
     "NBP_ref": 3.75,
-    "POLSTR_1M": 3.52,
-    "WIBOR_3M": 3.83,
+    "POLSTR_1M": 3.55,
+    "WIBOR_3M": 3.81,
     "WIBOR_6M": 3.85
   }
 }
