@@ -1,161 +1,174 @@
 {
-  "generatedAt": "2026-10-19T12:00:00Z",
+  "generatedAt": "2026-10-20T12:00:00Z",
   "note": "Dane z automatycznego researchu — orientacyjne, nie są ofertą; weryfikuj w banku.",
-  "notes": [
-    "Stawki referencyjne z portali finansowych, nie z GPW Benchmark ani NBP: WIBOR 3M 3,84% i WIBOR 6M 3,90% (notowanie z 1.10.2026, inne źródła podają 3,85–3,86% i 3,89–3,92%), POLSTR 1M 3,55% (składany, 2.10.2026), stopa NBP 3,75% (RPP utrzymała ją 7.10.2026). Źródła: https://ilezametr.pl/kredyty-hipoteczne-pazdziernik-2026-rpp-oprocentowanie-polstr/ i https://finwire.pl/stopy-procentowe — 2026-10-19.",
-    "Marże i prowizje z rankingu Bankiera dotyczą przykładu 400 tys. zł, 30 lat, nieruchomość 500 tys. zł (LTV 80%), a nie 25 lat. To oferty reprezentatywne z rankingu, nie potwierdzone na stronach banków.",
-    "Pola ryczaltConverter i minJDGMonths są null dla wszystkich banków. Wyszukiwanie nie dało wiarygodnych danych i ich nie zgadywałem."
-  ],
   "offers": [
     {
       "bank": "PKO BP",
       "commissionPct": 0.0,
-      "fixedRate5yPct": null,
-      "marginPct": 1.96,
-      "minDownPaymentPct": 10,
+      "fixedRate5yPct": 5.91,
+      "marginPct": 1.55,
+      "minDownPaymentPct": null,
       "minJDGMonths": null,
-      "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.84,
+      "referenceIndex": "POLSTR 1M",
+      "referenceValuePct": 3.55,
       "ryczaltConverter": null,
       "sources": [
-        "https://www.bankier.pl/smart/kredyty-hipoteczne — 2026-10-19 (oferta Własny Kąt, marża 1,96%, prowizja od 0%, RRSO od 6,00%; przykład 400 tys. zł / 30 lat, nie 25 lat). Inny serwis podaje marżę 1,99% (https://direct.money.pl/kredyty-hipoteczne — 2026-10-19). Stała 5 lat: brak wiarygodnej wartości (serwisy podają rozbieżnie 5,52% i 5,91%) → null. Wkład 10% z opisu serwisów, niepotwierdzony na stronie banku. Przelicznik ryczałtu i staż JDG: nie ustalono → null.",
-        "https://www.totalmoney.pl/kredyty_hipoteczne — 2026-10-19"
+        "https://www.bankier.pl/wiadomosc/Najlepsze-kredyty-hipoteczne-ze-zmiennym-oprocentowaniem-pazdziernik-2026-9213815.html — 2026-10-20 (marża 1,55%, symulacja 592 tys. zł/25 lat/LTV 80%, dane banków z 8–14.10.2026)",
+        "https://direct.money.pl/kredyty-hipoteczne — 2026-10-20 (Własny Kąt, promocja jesienna: prowizja 0%, stałe 5,91%; okres stałej stopy nie potwierdzony jako 5 lat)",
+        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-20 (starsza marża 1,86%, aktualizacja 2.10.2026; prowizja 0%)",
+        "minDownPaymentPct, ryczaltConverter, minJDGMonths: null — brak danych w źródłach"
       ]
     },
     {
       "bank": "Pekao",
-      "commissionPct": 0.0,
+      "commissionPct": null,
       "fixedRate5yPct": null,
-      "marginPct": 2.09,
+      "marginPct": 1.69,
       "minDownPaymentPct": null,
       "minJDGMonths": null,
-      "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.84,
+      "referenceIndex": "POLSTR 1M",
+      "referenceValuePct": 3.55,
       "ryczaltConverter": null,
       "sources": [
-        "https://www.bankier.pl/smart/kredyty-hipoteczne — 2026-10-19 (marża 2,09%, prowizja od 0%, RRSO od 6,19%)",
-        "https://pl.banksorter.com/najlepsze/hipoteki — 2026-10-19 (marża 2,09%, oprocentowanie 5,55%, serwis zaznacza, że warunki oferty się zmieniły i czekają na weryfikację). Stała 5 lat, minimalny wkład, ryczałt, staż JDG: nie ustalono → null."
+        "https://www.bankier.pl/wiadomosc/Najlepsze-kredyty-hipoteczne-ze-zmiennym-oprocentowaniem-pazdziernik-2026-9213815.html — 2026-10-20 (marża 1,69%, RRSO 5,64%)",
+        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-20 (starsza marża 1,89% dla zakupu przy wkładzie 20%, aktualizacja 2.10.2026)",
+        "fixedRate5yPct, commissionPct, minDownPaymentPct, ryczaltConverter, minJDGMonths: null — brak danych dla wkładu 20% w źródłach"
       ]
     },
     {
       "bank": "mBank",
       "commissionPct": 0.0,
-      "fixedRate5yPct": null,
+      "fixedRate5yPct": 6.79,
       "marginPct": 1.96,
       "minDownPaymentPct": null,
       "minJDGMonths": null,
-      "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.84,
+      "referenceIndex": "POLSTR 1M",
+      "referenceValuePct": 3.55,
       "ryczaltConverter": null,
       "sources": [
-        "https://www.bankier.pl/smart/kredyty-hipoteczne — 2026-10-19 (oferta ze stałą stopą: marża 1,96%, prowizja od 0%, RRSO od 6,12%). Wysokość stopy stałej, wkład, ryczałt, staż JDG: nie ustalono → null."
+        "https://www.bankier.pl/wiadomosc/Najlepsze-kredyty-hipoteczne-ze-zmiennym-oprocentowaniem-pazdziernik-2026-9213815.html — 2026-10-20 (marża 1,96%, RRSO 6,04%)",
+        "https://direct.money.pl/kredyty-hipoteczne — 2026-10-20 (Stała Pewność ed. 2: prowizja 0%, stałe 6,79%; okres stałej stopy nie potwierdzony jako 5 lat)",
+        "minDownPaymentPct, ryczaltConverter, minJDGMonths: null — brak danych"
       ]
     },
     {
       "bank": "ING",
-      "commissionPct": null,
-      "fixedRate5yPct": null,
-      "marginPct": null,
+      "commissionPct": 0.0,
+      "fixedRate5yPct": 6.36,
+      "marginPct": 2.0,
       "minDownPaymentPct": null,
       "minJDGMonths": null,
-      "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.84,
+      "referenceIndex": "POLSTR 1M",
+      "referenceValuePct": 3.55,
       "ryczaltConverter": null,
       "sources": [
-        "https://www.bankier.pl/smart/kredyty-hipoteczne — 2026-10-19 (kilka ofert ING: marże 1,56–2,00%, prowizje od 0% do 1,5%, RRSO od 5,55% do 6,11%; nie da się jednoznacznie wskazać oferty standardowej, więc marża i prowizja = null). Oferta „Jesień na swoim” ma oprocentowanie zmienne 5,56%. ING oferuje stałą stopę 5 lub 10 lat (https://direct.money.pl/kredyty-hipoteczne — 2026-10-19), bez parametrów. Reszta: nie ustalono → null."
+        "https://www.bankier.pl/wiadomosc/Najlepsze-kredyty-hipoteczne-ze-zmiennym-oprocentowaniem-pazdziernik-2026-9213815.html — 2026-10-20 (marża 2,00%, RRSO 6,01%)",
+        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-20 (stałe 6,36% przy wkładzie 20%, zakup, marża po okresie stałym 1,99%; aktualizacja 2.10.2026)",
+        "https://moneteo.com/rankingi/kredyty-hipoteczne — data nieznana (prowizja 0%)",
+        "minDownPaymentPct, ryczaltConverter, minJDGMonths: null — brak danych"
       ]
     },
     {
       "bank": "Santander/Erste",
-      "commissionPct": 0.0,
-      "fixedRate5yPct": null,
-      "marginPct": 1.9,
+      "commissionPct": 2.0,
+      "fixedRate5yPct": 6.17,
+      "marginPct": 2.9,
       "minDownPaymentPct": null,
       "minJDGMonths": null,
-      "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.84,
+      "referenceIndex": "POLSTR 1M",
+      "referenceValuePct": 3.55,
       "ryczaltConverter": null,
       "sources": [
-        "https://www.bankier.pl/smart/kredyty-hipoteczne — 2026-10-19 (dotyczy Erste: marża 1,9%, prowizja od 0%, RRSO od 5,87%; Santander nie występuje na stronie, więc dane Santandera nie zostały ustalone). Stała 5 lat, wkład, ryczałt, staż JDG: nie ustalono → null."
+        "https://www.bankier.pl/wiadomosc/Najlepsze-kredyty-hipoteczne-ze-zmiennym-oprocentowaniem-pazdziernik-2026-9213815.html — 2026-10-20 (Erste Bank Polska: marża 2,90%, RRSO 7,04%; Santander nie występuje w rankingu → brak danych)",
+        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-20 (Erste, stałe 6,17% przy wkładzie 20%, zakup; aktualizacja 2.10.2026)",
+        "https://direct.money.pl/kredyty-hipoteczne — 2026-10-20 (Erste: prowizja 2,00%, oprocentowanie 6,97%; moneteo.com podaje prowizję 0% dla Erste — rozbieżność, przyjęto money.pl z 20.10.2026)",
+        "Dane dotyczą Erste Bank Polska (dawny Santander Bank Polska); minDownPaymentPct, ryczaltConverter, minJDGMonths: null"
       ]
     },
     {
       "bank": "Millennium",
       "commissionPct": 0.0,
-      "fixedRate5yPct": 5.65,
-      "marginPct": 2.1,
-      "minDownPaymentPct": 20,
+      "fixedRate5yPct": 6.06,
+      "marginPct": null,
+      "minDownPaymentPct": null,
       "minJDGMonths": null,
-      "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.84,
+      "referenceIndex": null,
+      "referenceValuePct": null,
       "ryczaltConverter": null,
       "sources": [
-        "https://pl.banksorter.com/najlepsze/hipoteki — 2026-10-19 (marża 2,10%, brak prowizji, stała stopa przez pierwsze 60 miesięcy, wymagany wkład min. 20% / LTV do 80%; serwis podaje oprocentowanie 6,06%)",
-        "https://www.bankier.pl/smart/kredyty-hipoteczne — 2026-10-19 (stała 5,65% przez 60 miesięcy tylko w ofercie sponsorowanej; kalkulacja Millennium z datą 05.03.2026, więc może być nieaktualna). Inne serwisy podają 5,76% i 5,63%, stąd wartość stałej jest niepewna. Ryczałt i staż JDG: nie ustalono → null."
+        "https://direct.money.pl/kredyty-hipoteczne — 2026-10-20 (Kredyt ze stałym oprocentowaniem: prowizja 0%, 6,06%; okres stałej stopy nie potwierdzony jako 5 lat)",
+        "marginPct, referenceIndex, referenceValuePct: null — Millennium nie występuje w tabeli Bankier.pl ani Kredytowego Poradnika; minDownPaymentPct, ryczaltConverter, minJDGMonths: null"
       ]
     },
     {
       "bank": "Alior",
       "commissionPct": 0.0,
-      "fixedRate5yPct": null,
+      "fixedRate5yPct": 6.52,
       "marginPct": 1.69,
       "minDownPaymentPct": null,
       "minJDGMonths": null,
       "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.84,
+      "referenceValuePct": 3.85,
       "ryczaltConverter": null,
       "sources": [
-        "https://www.bankier.pl/smart/kredyty-hipoteczne — 2026-10-19 (marża 1,69%, prowizja od 0%, RRSO od 6,16%). Stała 5 lat, wkład, ryczałt, staż JDG: nie ustalono → null."
+        "https://www.bankier.pl/wiadomosc/Najlepsze-kredyty-hipoteczne-ze-zmiennym-oprocentowaniem-pazdziernik-2026-9213815.html — 2026-10-20 (marża 1,69%, RRSO 6,02%; w źródle błędny łączny koszt)",
+        "https://direct.money.pl/kredyty-hipoteczne — 2026-10-20 (Własne M tam gdzie Ty: prowizja 0%, stałe 6,52%; okres stałej stopy nie potwierdzony jako 5 lat)",
+        "minDownPaymentPct, ryczaltConverter, minJDGMonths: null — brak danych"
       ]
     },
     {
       "bank": "BNP Paribas",
-      "commissionPct": 0.0,
-      "fixedRate5yPct": null,
-      "marginPct": 1.65,
+      "commissionPct": null,
+      "fixedRate5yPct": 5.95,
+      "marginPct": 1.75,
       "minDownPaymentPct": null,
       "minJDGMonths": null,
       "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.84,
+      "referenceValuePct": 3.85,
       "ryczaltConverter": null,
       "sources": [
-        "https://www.bankier.pl/smart/kredyty-hipoteczne — 2026-10-19 (marża 1,65%, prowizja od 0%, RRSO od 5,88%). Stała 5 lat, wkład, ryczałt, staż JDG: nie ustalono → null."
+        "https://www.bankier.pl/wiadomosc/Najlepsze-kredyty-hipoteczne-ze-zmiennym-oprocentowaniem-pazdziernik-2026-9213815.html — 2026-10-20 (marża 1,75%, RRSO 5,88%)",
+        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-20 (stałe 5,95% przy wkładzie 20%, zakup, marża 1,65%; aktualizacja 2.10.2026)",
+        "commissionPct, minDownPaymentPct, ryczaltConverter, minJDGMonths: null — brak danych"
       ]
     },
     {
       "bank": "Credit Agricole",
       "commissionPct": 0.0,
-      "fixedRate5yPct": null,
+      "fixedRate5yPct": 6.84,
       "marginPct": 1.65,
       "minDownPaymentPct": null,
       "minJDGMonths": null,
       "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.84,
+      "referenceValuePct": 3.85,
       "ryczaltConverter": null,
       "sources": [
-        "https://www.bankier.pl/smart/kredyty-hipoteczne — 2026-10-19 (marża 1,65%, prowizja od 0%, RRSO od 6,28%). Stała 5 lat, wkład, ryczałt, staż JDG: nie ustalono → null."
+        "https://www.bankier.pl/wiadomosc/Najlepsze-kredyty-hipoteczne-ze-zmiennym-oprocentowaniem-pazdziernik-2026-9213815.html — 2026-10-20 (marża 1,65%, RRSO 6,19%)",
+        "https://direct.money.pl/kredyty-hipoteczne — 2026-10-20 (prowizja 0%, stałe 6,84%; okres stałej stopy nie potwierdzony jako 5 lat)",
+        "minDownPaymentPct, ryczaltConverter, minJDGMonths: null — brak danych"
       ]
     },
     {
       "bank": "VeloBank",
       "commissionPct": 0.0,
-      "fixedRate5yPct": null,
-      "marginPct": 1.79,
-      "minDownPaymentPct": 10,
+      "fixedRate5yPct": 6.6,
+      "marginPct": 1.59,
+      "minDownPaymentPct": null,
       "minJDGMonths": null,
-      "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.84,
+      "referenceIndex": "POLSTR 1M",
+      "referenceValuePct": 3.55,
       "ryczaltConverter": null,
       "sources": [
-        "https://pl.banksorter.com/najlepsze/hipoteki — 2026-10-19 (VeloDom: marża 1,79%, oprocentowanie 5,54%, wybór zmiennego lub stałego na 5 lat, finansowanie do 90% wartości, więc wkład min. 10%; prowizja 0% tylko przy koncie z pakietem i ubezpieczeniu VeloBezpieczny)",
-        "https://www.bankier.pl/smart/kredyty-hipoteczne — 2026-10-19 (marże 1,59–1,79%, RRSO od 5,72%). Nie wiadomo, czy 5,54% to stopa stała, więc fixedRate5yPct = null. Ryczałt i staż JDG: nie ustalono → null."
+        "https://www.bankier.pl/wiadomosc/Najlepsze-kredyty-hipoteczne-ze-zmiennym-oprocentowaniem-pazdziernik-2026-9213815.html — 2026-10-20 (marża 1,59%, RRSO 5,42%)",
+        "https://direct.money.pl/kredyty-hipoteczne — 2026-10-20 (VeloDom dla Profesjonalistów: prowizja 0%, 6,60%; wariant VeloDom 6,80%; okres stałej stopy nie potwierdzony jako 5 lat)",
+        "minDownPaymentPct, ryczaltConverter, minJDGMonths: null — brak danych"
       ]
     }
   ],
   "referenceRates": {
     "NBP_ref": 3.75,
     "POLSTR_1M": 3.55,
-    "WIBOR_3M": 3.84,
-    "WIBOR_6M": 3.9
+    "WIBOR_3M": 3.85,
+    "WIBOR_6M": 3.94
   }
 }
