@@ -1,104 +1,93 @@
 {
-  "generatedAt": "2026-10-24T00:00:00Z",
+  "generatedAt": "2026-10-25T00:00:00Z",
   "note": "Dane z automatycznego researchu — orientacyjne, nie są ofertą; weryfikuj w banku.",
-  "notes": [
-    "Ranking przyjmuje nieruchomość 600 tys. zł i kredyt 480 tys. zł, nie 400 tys. Marże mogą się różnić od oferty dla 400 tys. zł.",
-    "Dane o przeliczniku ryczałtu i stażu JDG nie zostały znalezione w żadnym źródle (null we wszystkich ofertach).",
-    "Wartości NBP_ref i WIBOR_6M pochodzą z różnych dat; WIBOR_3M i POLSTR_1M to przedziały z różnych ofert (3,83–3,85 i 3,55–3,56)."
-  ],
+  "notes": "WIBOR_3M 3.89 pochodzi z finwire (cytuje GPW Benchmark, wartość z sierpnia 2026), nie z października. WIBOR_6M 3.85 to wartość z 27.07.2026 (źródło wtórne). POLSTR_1M 3.55 to stopa składana z 25.09.2026 (przykład RRSO VeloBank i Millennium na finwire). Ten sam serwis w przykładzie PKO podaje dla POLSTR 1M 5,41%, co jest sprzeczne i niewyjaśnione. NBP_ref 3.75 obowiązuje od marca 2026 (źródło wtórne, bez potwierdzenia na nbp.pl). WIBOR O/N znika od 1.10.2026, a WIBOR 1M/3M/6M mają obowiązywać do 1.01.2037. Oferty Alior, BNP Paribas, Credit Agricole, ING, mBank i Santander/Erste: wyszukiwanie nie dało wiarygodnych danych, dlatego wartości są null. Komisje, minimalny wkład, przeliczniki ryczałtu i staż JDG nie zostały potwierdzone dla żadnego banku. Marże dotyczą kredytu na 400 tys. zł, 25 lat, wkład 100 tys. zł (25%), według rankingu finwire z 24.10.2026, i mogą zakładać dodatkowe warunki (ubezpieczenie, wpływy na konto).",
   "offers": [
     {
       "bank": "PKO BP",
-      "commissionPct": 0.0,
+      "commissionPct": null,
       "fixedRate5yPct": null,
-      "marginPct": 1.86,
-      "minDownPaymentPct": 10,
+      "marginPct": 1.96,
+      "minDownPaymentPct": null,
       "minJDGMonths": null,
       "referenceIndex": "POLSTR 1M",
       "referenceValuePct": 3.55,
       "ryczaltConverter": null,
       "sources": [
-        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-24 (dane z 2.10.2026; marża dla wkładu 20% i oprocentowania zmiennego, kredyt 480 tys. zł, nie 400 tys.; prowizja 0% wg nazwy oferty)",
-        "Stała stopa 5 lat dla wkładu 20%: brak (null). Dla wkładu 10% 6,78%. Bankier wspomina czasową obniżkę stałej stopy o 0,8 pp: https://www.bankier.pl/wiadomosc/Promocje-kredytow-hipotecznych-pazdziernik-2026-r-9206656.html",
-        "Przelicznik ryczałtu i staż JDG: brak danych (null)"
+        "https://finwire.pl/rankingi/kredyty-hipoteczne?kwota=400000&lata=25 — 25.10.2026 (oferta 'Własny kąt', marża 1,96%, oprocentowanie karty 5,50%; stałe na 5 lat 5,50% według karty, a przykład RRSO podaje 6,57%, rozbieżność niewyjaśniona, więc fixedRate5yPct=null)",
+        "Brak danych o prowizji, minimalnym wkładzie, ryczałcie i stażu JDG — null"
       ]
     },
     {
       "bank": "Pekao",
       "commissionPct": null,
       "fixedRate5yPct": null,
-      "marginPct": 1.89,
-      "minDownPaymentPct": 10,
+      "marginPct": 2.09,
+      "minDownPaymentPct": null,
       "minJDGMonths": null,
-      "referenceIndex": "POLSTR 1M",
-      "referenceValuePct": 3.56,
+      "referenceIndex": "WIBOR 1M",
+      "referenceValuePct": null,
       "ryczaltConverter": null,
       "sources": [
-        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-24 (dane z 2.10.2026, wkład 20%, zmienne; ranking zakłada brak prowizji, brak potwierdzenia w banku)",
-        "Stała stopa 5 lat dla zakupu z wkładem 20%: brak (null). Dla wkładu 10% 6,68% (marża po 5 latach 2,19%)",
-        "Przelicznik ryczałtu i staż JDG: brak danych (null)"
+        "https://finwire.pl/rankingi/kredyty-hipoteczne?kwota=400000&lata=25 — 25.10.2026 (wariant z ubezpieczeniem: marża 2,09%; wariant z wpływami na konto: 2,19%; wartość WIBOR 1M w przykładzie pochodzi z 2.01.2026, więc nieaktualna, stąd null)",
+        "Brak danych o stałej stopie, prowizji, minimalnym wkładzie, ryczałcie i stażu JDG — null"
       ]
     },
     {
       "bank": "mBank",
       "commissionPct": null,
-      "fixedRate5yPct": 6.67,
+      "fixedRate5yPct": null,
       "marginPct": null,
-      "minDownPaymentPct": 10,
-      "minJDGMonths": null,
-      "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.83,
-      "ryczaltConverter": null,
-      "sources": [
-        "https://www.bankier.pl/wiadomosc/Promocje-kredytow-hipotecznych-pazdziernik-2026-r-9206656.html — 2026-10-24 (promocja: stałe 6,67% przez 5 lat przy wkładzie ≥20%)",
-        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-24 (marża 2,41% tylko dla wkładu 10%; dla 20% brak, null)",
-        "Przelicznik ryczałtu i staż JDG: brak danych (null)"
-      ]
-    },
-    {
-      "bank": "ING",
-      "commissionPct": null,
-      "fixedRate5yPct": 6.36,
-      "marginPct": 1.99,
-      "minDownPaymentPct": 10,
-      "minJDGMonths": null,
-      "referenceIndex": "POLSTR 1M",
-      "referenceValuePct": 3.55,
-      "ryczaltConverter": null,
-      "sources": [
-        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-24 (dane z 2.10.2026, wkład 20%; stałe 6,36%, marża po 5 latach 1,99%; prowizja nie podana)",
-        "Przelicznik ryczałtu i staż JDG: brak danych (null)"
-      ]
-    },
-    {
-      "bank": "Santander/Erste",
-      "commissionPct": 0.0,
-      "fixedRate5yPct": 6.17,
-      "marginPct": 1.9,
-      "minDownPaymentPct": 10,
+      "minDownPaymentPct": null,
       "minJDGMonths": null,
       "referenceIndex": null,
       "referenceValuePct": null,
       "ryczaltConverter": null,
       "sources": [
-        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-24 (Erste Bank, wkład 20%; stałe 6,17%, marża po 5 latach 1,90%; Santander Bank Polska przemianowany na Erste Bank Polska, więc dane dotyczą Erste)",
-        "Prowizja 0% wg wyników wyszukiwania rankingów z października 2026, bez pewności co do konkretnej oferty",
-        "Wskaźnik odniesienia dla części zmiennej: brak (null). Przelicznik ryczałtu i staż JDG: brak (null)"
+        "Brak wiarygodnych danych w wyszukiwaniu — 25.10.2026; wszystkie parametry null"
+      ]
+    },
+    {
+      "bank": "ING",
+      "commissionPct": null,
+      "fixedRate5yPct": null,
+      "marginPct": null,
+      "minDownPaymentPct": null,
+      "minJDGMonths": null,
+      "referenceIndex": null,
+      "referenceValuePct": null,
+      "ryczaltConverter": null,
+      "sources": [
+        "Brak wiarygodnych danych w wyszukiwaniu — 25.10.2026; wszystkie parametry null (jedynie wzmianka w direct.money o promocji ING bez prowizji lub z obniżoną marżą, bez liczb)"
+      ]
+    },
+    {
+      "bank": "Santander/Erste",
+      "commissionPct": null,
+      "fixedRate5yPct": null,
+      "marginPct": null,
+      "minDownPaymentPct": null,
+      "minJDGMonths": null,
+      "referenceIndex": null,
+      "referenceValuePct": null,
+      "ryczaltConverter": null,
+      "sources": [
+        "Brak wiarygodnych danych o ofercie w wyszukiwaniu — 25.10.2026; erste.pl podaje tylko informację o wskaźnikach referencyjnych (WIBOR/POLSTR)"
       ]
     },
     {
       "bank": "Millennium",
       "commissionPct": null,
-      "fixedRate5yPct": null,
+      "fixedRate5yPct": 5.64,
       "marginPct": 2.1,
       "minDownPaymentPct": null,
       "minJDGMonths": null,
       "referenceIndex": "POLSTR 1M",
-      "referenceValuePct": 3.55055,
+      "referenceValuePct": 3.55,
       "ryczaltConverter": null,
       "sources": [
-        "https://www.bankier.pl/smart/kredyty-hipoteczne — 2026-10-24 (oferta sponsorowana, kredyt stały okresowo, POLSTR 1M z 25.09.2026, marża 2,10%, RRSO 6,89%; wkład i kwota nie są zgodne z założeniami zapytania). Marża 2,00% dotyczy oferty energooszczędnej.",
-        "Stała stopa 5 lat, prowizja, minimalny wkład, ryczałt, staż JDG: brak danych (null)"
+        "https://finwire.pl/rankingi/kredyty-hipoteczne?kwota=400000&lata=25 — 25.10.2026 (oferta ze stałą stopą na 5 lat: oprocentowanie 5,64%, marża 2,10%; wariant 6,24% / marża 2,70%; przykład RRSO podaje 6,06% dla stałej, rozbieżność niewyjaśniona)",
+        "Brak danych o prowizji, minimalnym wkładzie, ryczałcie i stażu JDG — null"
       ]
     },
     {
@@ -108,27 +97,25 @@
       "marginPct": null,
       "minDownPaymentPct": null,
       "minJDGMonths": null,
-      "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.85,
+      "referenceIndex": null,
+      "referenceValuePct": null,
       "ryczaltConverter": null,
       "sources": [
-        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-24 (Alior jest tylko w rankingu refinansowania: marża 1,50% przy wkładzie 20%, 1,80% przy 10%; stała 6,67% przy 10%). Nie dotyczy zakupu, dlatego marża to null.)",
-        "Wszystkie pozostałe pola: brak danych (null)"
+        "Brak wiarygodnych danych w wyszukiwaniu — 25.10.2026; wszystkie parametry null"
       ]
     },
     {
       "bank": "BNP Paribas",
       "commissionPct": null,
-      "fixedRate5yPct": 5.95,
-      "marginPct": 1.65,
+      "fixedRate5yPct": null,
+      "marginPct": null,
       "minDownPaymentPct": null,
       "minJDGMonths": null,
-      "referenceIndex": "WIBOR 3M",
-      "referenceValuePct": 3.85,
+      "referenceIndex": null,
+      "referenceValuePct": null,
       "ryczaltConverter": null,
       "sources": [
-        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-24 (dane z 2.10.2026, wkład 20%; stałe 5,95%, marża 1,65%; prowizja nie podana)",
-        "Minimalny wkład, ryczałt, staż JDG: brak danych (null)"
+        "Brak wiarygodnych danych w wyszukiwaniu — 25.10.2026; wszystkie parametry null"
       ]
     },
     {
@@ -142,33 +129,30 @@
       "referenceValuePct": null,
       "ryczaltConverter": null,
       "sources": [
-        "Brak oferty w rankingach sprawdzonych 2026-10-24 (kredytowyporadnik.pl, bankier.pl); wszystkie wartości null, wymagana weryfikacja na stronie banku"
+        "Brak wiarygodnych danych w wyszukiwaniu — 25.10.2026; wszystkie parametry null"
       ]
     },
     {
       "bank": "VeloBank",
       "commissionPct": null,
       "fixedRate5yPct": null,
-      "marginPct": null,
-      "minDownPaymentPct": 10,
+      "marginPct": 1.89,
+      "minDownPaymentPct": null,
       "minJDGMonths": null,
-      "referenceIndex": "WIBOR 1M",
-      "referenceValuePct": 3.76,
+      "referenceIndex": "POLSTR 1M",
+      "referenceValuePct": 3.55,
       "ryczaltConverter": null,
       "sources": [
-        "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — 2026-10-24 (tylko wkład 10%: marża 2,25%, stałe 7,26%; dla wkładu 20% brak, null)",
-        "Ryczałt i staż JDG: brak danych (null)"
+        "https://finwire.pl/rankingi/kredyty-hipoteczne?kwota=400000&lata=25 — 25.10.2026 (VeloDom: marża 1,89%, oprocentowanie karty 5,43%; stałe na 5 lat według karty 5,43%, a przykład RRSO podaje 6,92%, rozbieżność niewyjaśniona, więc fixedRate5yPct=null)",
+        "https://direct.money.pl/artykuly/porady/zimowa-wyprzedaz-w-ing-banku-slaskim-kredyty-hipoteczne-bez-prowizji-lub-z-obnizona-marza — sierpień 2026 (VeloBank stałe 6,47%, prowizja 0%, dane z sierpnia, nie użyte w polach)",
+        "Brak danych o minimalnym wkładzie, ryczałcie i stażu JDG — null"
       ]
     }
   ],
   "referenceRates": {
     "NBP_ref": 3.75,
-    "POLSTR_1M": 3.56,
-    "WIBOR_3M": 3.85,
-    "WIBOR_6M": 3.91
-  },
-  "referenceRatesSources": [
-    "https://kredytowyporadnik.pl/rankingi/ranking-kredytow-hipotecznych/ — dostęp 2026-10-24, dane z 2026-10-02 (WIBOR 3M 3,83–3,85; WIBOR 6M 3,91; POLSTR 1M 3,55–3,56)",
-    "https://www.totalmoney.pl/artykuly/podwyzka-stop-procentowych-aktualne-informacje-o-stopach-procentowych-w-polsce — dostęp 2026-10-24; NBP 3,75% potwierdzona tylko do lipca 2026, brak potwierdzenia na październik"
-  ]
+    "POLSTR_1M": 3.55,
+    "WIBOR_3M": 3.89,
+    "WIBOR_6M": 3.85
+  }
 }
